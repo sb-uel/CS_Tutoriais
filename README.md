@@ -39,3 +39,9 @@ O projeto deve funcionar de acordo com as regras do jogo. O programa exibirá um
 Neste jogo, o jogador deverá acertar o número que o programa irá sortear. No início, o jogador escolhe o nível de dificuldade que deseja jogar, alterando o número de chutes possíveis, e conforme for dando seus chutes, o programa dirá se o chute é menor ou maior que o número escolhido.
 
 **Conteúdo:** Estrutura de repetição e condição, sortear números.
+
+## Cifra de César
+
+Este programa consiste em simular o sistema de criptografia utilizada por César. O programa irá ler a ação escolhida (criptografar ou desencriptografar), o código para a ação, e qual será o input do texto (uma frase pelo terminal ou um arquivo .txt). Por fim, o programa deve armazenar o resultado em um arquivo (.txt).
+
+**Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
