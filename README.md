@@ -3,9 +3,9 @@
 Projetos tutoriais elaborados pelo capítulo Computer Society para o ano letivo de 2023. Os projetos envolvem conceitos básicos de programação, de forma que os calouros também possam fazer. Vale ressaltar que além disso, o ramo irá proporcionar um minicurso de C para capacitar os membros a realizar os tutoriais.
 Eles terão o período de um mês para concluir, e serão divididos em equipes de até 3 participantes por projeto.
 
-## Calculadora Simples
+## Calculadora
 
-Apresentar um menu para escolha da operação, que será selecionada por um número inteiro. Após escolher a operação, o programa deve ler dois números inteiros e fazer a operação selecionada com eles. Se caso a operação escolhida for a opção de "sair" do programa, então ele é encerrado sem ler os números. Porém, se o número lido na operação não for uma operação válida, o programa poderá ler os dois números, mas não fará nenhuma operação.
+Apresentar um menu para escolha da operação, que será selecionada por um número inteiro. Após escolher a operação, o programa deve ler dois números de ponto flutuante e fazer a operação selecionada com eles. Se caso a operação escolhida for a opção de "sair" do programa, então ele é encerrado sem ler os números. Porém, se o número lido na operação não for uma operação válida, o programa poderá ler os dois números, mas não fará nenhuma operação.
 
 **Conteúdo:** Estrutura de repetição e condição.
 
