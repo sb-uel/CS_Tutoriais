@@ -33,3 +33,15 @@ Este programa consiste em simular o sistema de criptografia utilizada por César
 Nesse projeto, será apresentado um menu com opção de codificação ou decodificação e então será lido um arquivo (.txt). O resultado da operação será salvo em um novo arquivo (.txt). Os caracteres do morse deverão ser agrupados de acordo com cada codificação de letra, para que a leitura seja realizada de forma mais rápida e correta.
 
 **Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
+
+## Organizador de Lista
+
+O projeto consiste em um organizador de lista, pode ser de músicas, filmes, séries ou outro tema. Basicamente, um algortimo que lerá um arquivo (.txt) e os itens que o usuário gostaria de adicionar na lista. Caso o arquivo já possua outros itens, o algoritmo é responsável por organizar a nova lista em ordem alfabética. 
+
+**Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
+
+## Resolvedor de Sudoku
+
+Consiste em um algoritmo que leia um arquivo (.txt) que contenha um sudoku não completo. O programa deve retornar um arquivo (.txt) com a solução do Sudoku proposto, caso haja. 
+
+**Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
