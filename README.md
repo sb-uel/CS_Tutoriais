@@ -34,12 +34,6 @@ Nesse projeto, será apresentado um menu com opção de codificação ou decodif
 
 **Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
 
-## Organizador de Lista
-
-O projeto consiste em um organizador de lista, pode ser de músicas, filmes, séries ou outro tema. Basicamente, um algortimo que lerá um arquivo (.txt) e os itens que o usuário gostaria de adicionar na lista. Caso o arquivo já possua outros itens, o algoritmo é responsável por organizar a nova lista em ordem alfabética. 
-
-**Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
-
 ## Resolvedor de Sudoku
 
 Consiste em um algoritmo que leia um arquivo (.txt) que contenha um sudoku não completo. O programa deve retornar um arquivo (.txt) com a solução do Sudoku proposto, caso haja. 
