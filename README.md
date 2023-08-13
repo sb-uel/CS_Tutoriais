@@ -27,3 +27,9 @@ O projeto deve funcionar de acordo com as regras do jogo. O programa exibirá um
 Este programa consiste em simular o sistema de criptografia utilizada por César. O programa irá ler a ação escolhida (criptografar ou desencriptografar), o código para a ação, e qual será o input do texto (uma frase pelo terminal ou um arquivo .txt). Por fim, o programa deve armazenar o resultado em um arquivo (.txt).
 
 **Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
+
+## Código Morse
+
+Nesse projeto, será apresentado um menu com opção de codificação ou decodificação e então será lido um arquivo (.txt). O resultado da operação será salvo em um novo arquivo (.txt). Os caracteres do morse deverão ser agrupados de acordo com cada codificação de letra, para que a leitura seja realizada de forma mais rápida e correta.
+
+**Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
