@@ -7,16 +7,16 @@ Eles terão o período de um mês para concluir, e serão divididos em equipes d
 
 Em The Big Bang Theory, o personagem Sheldon cria um jogo para disputar com seu amigo Raj para decidir qual filme era melhor: Saturn 3 ou Deep Space 9. O jogo é uma melhora do tradicional Pedra-Papel-Tesoura, porém, temos também as opções "Lagarto" e "Spock". Vejamos as regras:
 
-1. Pedra quebra a tesoura
-2. Tesoura corta o papel
-3. Papel contesta Spock
-4. Spock destrói a tesoura
-5. Tesoura decapita o lagarto
-6. Lagarto come o papel
-7. Papel embrulha a pedra
-8. Pedra esmaga o lagarto
-9. Lagarto envenena Spock
-10. Spock vaporiza a pedra
+1. Tesoura corta o papel
+2. Papel cobre a pedra
+3. Pedra esmaga o lagarto
+4. Lagarto envenena o Spock
+5. Spock quebra a tesoura
+6. Tesoura decapita o lagarto
+7. Lagarto come o papel
+8. Papel contesta Spock
+9. Spock vaporiza a pedra
+10. Pedra amassa a tesoura
 
 O projeto deve funcionar de acordo com as regras do jogo. O programa exibirá um menu com as opções de jogada (indicadas por números inteiros) para o jogador 1 e depois para o jogador 2. Se caso o número digitado não seja uma jogada válida, nada acontece. O jogo termina quando um dos jogadores chega a 5 pontos. No final, o programa mostra quem ganhou.
 
