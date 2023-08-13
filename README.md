@@ -38,4 +38,4 @@ Nesse projeto, será apresentado um menu com opção de codificação ou decodif
 
 Consiste em um algoritmo que leia um arquivo (.txt) que contenha um sudoku não completo. O programa deve retornar um arquivo (.txt) com a solução do Sudoku proposto, caso haja. 
 
-**Conteúdo:** Estrutura de repetição e condição, strings, manipulação de arquivo.
+**Conteúdo:** Estrutura de repetição e condição, strings, matrizes, manipulação de arquivo.
