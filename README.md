@@ -45,3 +45,9 @@ Consiste em um algoritmo que leia um arquivo (.txt) que contenha um sudoku não 
 Recriar o jogo do Campo Minado. Porém, o usuário poderá escolher o tamanho do mapa.
 
 **Conteúdo:** Estrutura de repetição e condição, matrizes.
+
+## Gerador de Caça-Palavras
+
+O programa cria um caça-palavras baseado nas palavras que o usuário informar. Ao final, o programa deve armazenar o caça palavras criado em um arquivo (.txt)
+
+**Conteúdo:** Estrutura de repetição e condição, matrizes, strings, manipulação de arquivo.
