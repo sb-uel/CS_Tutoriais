@@ -39,3 +39,9 @@ Nesse projeto, será apresentado um menu com opção de codificação ou decodif
 Consiste em um algoritmo que leia um arquivo (.txt) que contenha um sudoku não completo. O programa deve retornar um arquivo (.txt) com a solução do Sudoku proposto, caso haja. 
 
 **Conteúdo:** Estrutura de repetição e condição, strings, matrizes, manipulação de arquivo.
+
+## Campo Minado
+
+Recriar o jogo do Campo Minado. Porém, o usuário poderá escolher o tamanho do mapa.
+
+**Conteúdo:** Estrutura de repetição e condição, matrizes.
