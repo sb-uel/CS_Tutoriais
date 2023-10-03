@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    background-color: White;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    align-self: center;
+    justify-self: center;
+}
+
+button {
+    padding: 2.5rem 1rem;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+table {
+    margin: 2.5em auto;
+    border-collapse: outset;
+}
+
+td {
+    border: 2px solid rgb(163, 163, 163);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.tela1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 70%;
+}
+
+.selecao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.campominado {
+    display: none;
+    flex-direction: column;
+    animation: top 1s;
+    position: relative;
+}
+
+.fimdejogo {
+    display: none;
+    position: absolute;
+    gap: 3rem;
+    padding: 2rem;
+    z-index: 999;
+    width: 25rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    align-items: center;
+    animation: slideDown 2s forwards;
+}
+
+.selecao button {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.fimdejogo button {
+    width: 90%;
+    height: 80%;
+}
+
+.restart {
+    background: linear-gradient(180deg, rgb(16, 118, 186) 0%, rgb(28, 208, 240) 100%);
+}
+
+.facil {
+    background: linear-gradient(180deg, rgba(133, 186, 16, 1) 0%, rgba(199, 240, 28, 1) 100%);
+}
+
+.medio {
+    background: linear-gradient(180deg, rgba(248, 152, 12, 1) 0%, rgba(254, 237, 21, 1) 100%);
+}
+
+.dificil {
+    background: linear-gradient(180deg, rgba(223, 70, 12, 1) 0%, rgba(249, 108, 21, 1) 100%);
+}
+
+.restart:hover {
+    background: linear-gradient(180deg, rgb(6, 85, 99) 0%, rgb(9, 74, 158) 100%);
+}
+
+.facil:hover {
+    background: linear-gradient(180deg, rgb(69, 99, 6) 0%, rgb(128, 158, 9) 100%);
+}
+
+.medio:hover {
+    background: linear-gradient(180deg, rgb(136, 90, 21) 0%, rgb(148, 138, 4) 100%);
+}
+
+.dificil:hover {
+    background: linear-gradient(180deg, rgb(141, 56, 26) 0%, rgb(160, 64, 5) 100%);
+}
+
+
+.blocked,
+.flag {
+    background: rgb(0, 0, 0);
+}
+
+.n1,
+.n2,
+.n3,
+.n4,
+.n5,
+.n6,
+.n7,
+.n8 {
+    background-color: #b4b4b4;
+}
+
+.n1 {
+    color: rgb(21, 21, 247);
+}
+
+.n2 {
+    color: rgb(10, 119, 10);
+}
+
+.n3 {
+    color: rgb(245, 3, 3);
+}
+
+.n4 {
+    color: rgb(204, 28, 166);
+}
+
+.n5 {
+    color: rgb(252, 99, 10);
+}
+
+.n6 {
+    color: rgb(245, 200, 0);
+}
+
+.n7 {
+    color: rgb(0, 238, 255);
+}
+
+.n8 {
+    color: rgb(218, 124, 107);
+}
+
+@keyframes top {
+    from {
+        transform: translateY(-50em);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translate(-50%, -200%);
+    }
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        text-align: center;
+    }
+
+    .tela1 {
+        margin-top: 2rem;
+    }
+
+    .selecao {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .campominado {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .fimdejogo {
+        width: 20rem;
+    }
+
+    .fimdejogo button {
+        width: 100%;
+    }
+
+    table {
+        margin-left: 10px;
+        padding: 10px;
+        min-height: 100%;
+        min-width: 100%;
+        overflow-x: auto;
+    }
+
+    td {
+        min-height: 30px;
+        min-width: 30px;
+    }
+
+}

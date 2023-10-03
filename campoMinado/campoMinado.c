@@ -1,5 +1,5 @@
 /*
-Campo Minado
+Campo Minado - resultado esperado
 Projeto Tutorial 2023
 */
 #include <stdio.h>
