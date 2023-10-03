@@ -1,5 +1,5 @@
 /*
-Cifra de César 
+Cifra de César - resultado esperado
 Projeto Tutorial 2023
 */
 #include <stdio.h>
