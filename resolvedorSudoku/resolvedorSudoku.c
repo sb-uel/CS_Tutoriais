@@ -1,3 +1,7 @@
+/*
+Resolvedor de Sudoku - resultado esperado
+Projeto Tutorial 2023
+*/
 #include <stdio.h>
 #define N 9
 
