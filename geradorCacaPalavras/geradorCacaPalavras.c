@@ -1,5 +1,5 @@
 /*
-Gerador de Caça Palavras
+Gerador de Caça Palavras - resultado esperado
 Projeto Tutorial 2023
 */
 #include <stdio.h>

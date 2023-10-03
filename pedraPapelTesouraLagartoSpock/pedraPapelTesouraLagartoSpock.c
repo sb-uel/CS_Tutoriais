@@ -1,5 +1,5 @@
 /*
-Pedra Papel Tesoura Lagarto Spock
+Pedra Papel Tesoura Lagarto Spock - resultado esperado
 Projeto Tutorial 2023
 */
 #include <stdio.h>
